@@ -74,7 +74,7 @@ for i in range(len(data_body)):
     # Converte a porcentagem de desconto para um número inteiro
     discount = int(discount_pct.replace('%', '')) if discount_pct else 0
 
-    if discount <= -50 and total_reviews > 500 and positive_review_pct >= 60:
+    if discount <= -50 and total_reviews >= 500 and positive_review_pct >= 60:
         positive_review_pct = f'{positive_review_pct}%' 
 
         game = [

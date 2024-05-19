@@ -3,7 +3,7 @@ Case técnico realizado para vaga de Engenharia de Dados Jr na empresa beAnalyti
 
 Tarefas:
 
-1- Realizar a extração das informações da base de dados do steamdb.info/sales, com os filtros rating >= 60, reviews > 500 e discount >= 50%:
+1- Realizar a extração das informações da base de dados do steamdb.info/sales, com os filtros rating >= 60, reviews >= 500 e discount >= 50%:
 
 Como o steamdb não permite web scraping e nem disponibiliza uma API para acessar seus dados,
 realizei o web scraping da loja da steam diretamente, através do site:
