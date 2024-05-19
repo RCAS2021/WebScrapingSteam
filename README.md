@@ -15,8 +15,9 @@ Os dados coletados foram:
 - Data de lançamento
 - Preço original
 - Preço final
-- Análises
+- Porcentagem de análises positivas
 - Porcentagem de desconto
+- Total de reviews
 - Data da consulta
 
 2- Armazenar esses dados no Google BigQuery:
