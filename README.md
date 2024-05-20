@@ -1,12 +1,7 @@
-# beAnalytic
-Case técnico realizado para vaga de Engenharia de Dados Jr na empresa beAnalytic.
-
+# Web Scraping Steam
 Tarefas:
 
-1- Realizar a extração das informações da base de dados do steamdb.info/sales, com os filtros rating >= 60, reviews >= 500 e discount >= 50%:
-
-Como o steamdb não permite web scraping e nem disponibiliza uma API para acessar seus dados,
-realizei o web scraping da loja da steam diretamente, através do site:
+1- Realizar a extração das informações de jogos em promoção na steam, com os filtros rating >= 60, reviews >= 500 e discount >= 50%:
 https://store.steampowered.com/search/?sort_by=Reviews_DESC&specials=1&ndl=1
 ---|
 
@@ -27,6 +22,3 @@ Para realizar essa tarefa, salvei os dados gerados pelo web scraping em um arqui
 3- Conectar os dados em uma planilha do Google Sheets:
 
 Para realizar essa tarefa, criei uma planilha no Google Sheets e adicionei os dados através do menu Dados -> Conetores de dados -> Associar ao BigQuery
-
-Link da planilha do Google Sheets:
-https://docs.google.com/spreadsheets/d/1uJQ_YPjpSLznm2S0guw-YyRsagap_rEAbUYeO-qqEj8/edit?usp=sharing
