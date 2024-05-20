@@ -7,7 +7,7 @@ Tarefas:
 
 Como o steamdb não permite web scraping e nem disponibiliza uma API para acessar seus dados,
 realizei o web scraping da loja da steam diretamente, através do site:
-https://store.steampowered.com/search/?specials=1&ndl=1
+https://store.steampowered.com/search/?sort_by=Reviews_DESC&specials=1&ndl=1
 ---|
 
 Os dados coletados foram:
